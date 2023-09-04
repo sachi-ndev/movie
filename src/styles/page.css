@@ -1,0 +1,19 @@
+#poptitle{
+    visibility:hidden ;
+
+}
+#popdiv{
+    transition: transform .5s ease-in-out;
+
+}
+
+#popdiv:hover #poptitle {
+    visibility: visible;
+
+}
+#popdiv:hover{
+    transform: scale(1.12);
+    box-shadow: 0px 0px 15px 0.01px rgba(0, 0, 0, 0.581);
+    
+    
+}
